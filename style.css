@@ -245,11 +245,11 @@
     flex: 1 0 100%;
   }
   
-  .header__social > svg > path {
+  .footer__social > svg > path {
     transition: fill var(--transition);
   }
   
-  .header__social:hover > svg > path {
+  .footer__social:hover > svg > path {
     fill: var(--accent);
   }
   
@@ -397,15 +397,6 @@
       translate: -50%;
     }
   
-    .hero__circle {
-      position: absolute;
-      top: auto;
-      right: 0;
-      bottom: 190px;
-      translate: 50%;
-      z-index: 1;
-    }
-  
     .hero__text {
       /* width: 62vw; */
       margin-block-start: 90px;
@@ -454,11 +445,6 @@
     .hero__rings {
       top: 0px;
       translate: -50% -50%;
-    }
-  
-    .hero__circle {
-      top: 322px;
-      right: 445px;
     }
   
     .hero__text {
