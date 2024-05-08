@@ -428,7 +428,13 @@
   .skills__description {
     margin-block-end: 0;
   }
-  
+
+  .skills__rings {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    translate: 0 50%;
+  }
   
   @media (min-width: 37.5em) {
     .skills__wrapper {
@@ -441,6 +447,10 @@
     .skills__item {
       text-align: left;
     }
+
+    .skills__rings {
+        translate: 40% 50%;
+      }
   
   }
   
@@ -450,5 +460,10 @@
       gap: 58px 30px;
       padding-block-start: 72px;
     }
+
+    .skills__rings {
+        translate: -40% 50%;
+        left: 100%;
+      }
   
   }
