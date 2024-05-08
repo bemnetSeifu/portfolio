@@ -328,12 +328,6 @@
     height: auto;
   }
   
-  .hero__circle {
-    position: relative;
-    top: 171px;
-    margin-bottom: -129px;
-    translate: calc(100vw - 64px - 16px);
-  }
   
   .hero__text {
     position: relative;
