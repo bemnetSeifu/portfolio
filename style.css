@@ -1,3 +1,4 @@
+
 :root {
     --bg-body: #1b262c;
     --bg-body2: #0f4c75;
@@ -18,6 +19,17 @@
     --transition: 250ms ease-in-out;
   }
   
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg-body: #92c7cf;
+      --bg-body2: #aad7d9;
+      --accent: #3282b8;
+      --text1: #fff;
+      --text2: #39a7ff;
+      --invalid: #ff6f5b;
+    }
+}
+
   html,
   body {
     overflow-x: hidden;
@@ -740,8 +752,9 @@
       translate: -40%;
     }
   }
-
-  /*FOOTER*/
   footer {
     padding-block: 40px 60px;
   }
+  
+ 
+
